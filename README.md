@@ -1,4 +1,4 @@
-# FlipX - Interactive Animated Flipbook (JavaScript)
+# FlipX - 3D Card/Image Flip (JavaScript)
 
 ## 🚀 Overview
 
@@ -41,8 +41,3 @@ FlipX is licensed under the [Envato Regular License](LICENSE.md).
 ## 📩 Support
 
 For support, please contact **[Your Email or Website]**.
-
----
-
-Now you're ready to package **FlipX** for **Envato**! 🎉  
-Let me know if you need any improvements or additions. 🚀
