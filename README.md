@@ -46,4 +46,3 @@ For support, please contact **[Your Email or Website]**.
 
 Now you're ready to package **FlipX** for **Envato**! 🎉  
 Let me know if you need any improvements or additions. 🚀
-# FlipX---3D-Card-Image-Flip
