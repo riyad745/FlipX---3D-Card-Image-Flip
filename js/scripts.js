@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
   const images = [
-    { "front": "https://cdn.prod.website-files.com/65943d23dc44e6ce92eb6b67/65fc9f534c1398dac499304d_commercial_search-p-800.jpg", "back": "images/back.jpeg" },
-    { "front": "https://cdn.prod.website-files.com/65943d23dc44e6ce92eb6b67/65fc9f534c1398dac499304d_commercial_search-p-800.jpg", "back": "images/back.jpeg" }
+    { "front": "images/front1.jpeg", "back": "images/back1.jpeg" },
+    { "front": "images/front2.jpeg", "back": "images/back2.jpeg" },
     // Add more images as needed
   ];
 
