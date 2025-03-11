@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+#imageMode {
+    background-color: #007bff;
+    color: white;
+}
+
+#cardMode {
+    background-color: #28a745;
+    color: white;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.flipbook {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    perspective: 1200px;
+    padding: 20px;
+    max-width: 90vw;
+    margin: auto;
+}
+
+/* Common page styles */
+.page {
+    width: 250px;
+    height: 350px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.8s ease-in-out;
+    cursor: pointer;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    perspective: 1000px;
+}
+
+.page.flipped {
+    transform: rotateY(180deg);
+}
+
+/* Card-specific styles */
+.card-face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    pointer-events: none;
+}
+
+.card-face.front {
+    background-color: #ff5733;
+    transform: rotateY(0deg);
+}
+
+.card-face.back {
+    background-color: #333;
+    transform: rotateY(180deg);
+}
+
+/* Image-specific styles */
+.image-face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    transition: transform 0.8s;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.image-face.front {
+    transform: rotateY(0deg);
+}
+
+.image-face.back {
+    transform: rotateY(180deg);
+}
+
+.image-face img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
+}
+
+/* Different colors for variety */
+.color-0 .card-face.front {
+    background-color: #ff5733;
+}
+
+.color-1 .card-face.front {
+    background-color: #3498db;
+}
+
+.color-2 .card-face.front {
+    background-color: #e74c3c;
+}
+
+.color-3 .card-face.front {
+    background-color: #f39c12;
+}
+
+.color-4 .card-face.front {
+    background-color: #8e44ad;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .page {
+        width: 180px;
+        height: 250px;
+    }
+
+    .card-face {
+        font-size: 16px;
+        padding: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .page {
+        width: 150px;
+        height: 200px;
+    }
+
+    .card-face {
+        font-size: 14px;
+        padding: 10px;
+    }
+}
