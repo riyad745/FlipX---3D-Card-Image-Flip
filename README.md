@@ -14,7 +14,7 @@
 
 ## 🌍 Live Demo
 
-<https://riyad745.github.io/FlipX---3D-Card-Image-Flip/>
+[Live Demo](https://riyad745.github.io/FlipX---3D-Card-Image-Flip/)
 
 ## 📥 Installation
 
@@ -34,10 +34,20 @@
 - **Modify Cards:** Update the `cards` array in `script.js`.
 - **Change Colors:** Customize the colors in `style.css`.
 
-## 📜 License
+## 📜 License Information
 
 FlipX is licensed under the [Envato Regular License](LICENSE.md).
+
+### Asset Licensing
+
+- **Images:** All images used in this project are either created by the author or licensed for commercial use. If you wish to modify or replace the images, you can do so by updating the `images` array in the `script.js` file.
+- **Fonts:** If external fonts are used, they are either embedded in the project or licensed under appropriate licenses. You can find font details in the `style.css` file.
+- **JavaScript Libraries:** This project does not rely on any external JavaScript libraries for the flip animation effect, but if you decide to integrate any, ensure to include the appropriate license for them.
 
 ## 📩 Support
 
 For support, please contact **[Your Email or Website]**.
+
+---
+
+Thank you for using **FlipX**! 🚀
